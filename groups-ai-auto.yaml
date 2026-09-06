@@ -1,0 +1,31 @@
+# Profile Enhancement Groups - 仅保留 AI自动选择
+# 用法: 传到 GitHub, Windows 端 Clash Verge Rev -> 复写/Groups -> 从 URL/文件导入
+# 不含任何节点密钥, 可安全进仓库 (建议仍用私有仓)
+
+prepend:
+  - name: AI自动选择
+    type: url-test
+    url: https://chatgpt.com
+    interval: 300
+    proxies:
+      - 🇺🇸|美国-IEPL 01
+      - 🇺🇸|美国-IEPL 02
+      - 🇺🇸|美国-直连
+      - 🇺🇸|美国-进阶IEPL 01
+      - 🇺🇸|美国-进阶IEPL 02
+      - 🇯🇵|日本-IEPL 01
+      - 🇯🇵|日本-IEPL 02
+      - 🇯🇵|日本原生-IEPL 01
+      - 🇯🇵|日本原生-IEPL 02
+      - 🇯🇵|日本星链家宽-IEPL 01
+      - 🇯🇵|日本星链家宽-IEPL 02
+      - 🇯🇵|日本原生-直连
+      - 🇸🇬|新加坡-IEPL 01
+      - 🇸🇬|新加坡-IEPL 02
+      - 🇸🇬|新加坡-进阶IEPL 01
+      - 🇸🇬|新加坡-进阶IEPL 03
+      - 🇸🇬|新加坡-直连
+
+append: []
+
+delete: []

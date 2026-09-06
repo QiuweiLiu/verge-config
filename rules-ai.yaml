@@ -1,0 +1,14 @@
+# Profile Enhancement Rules - AI 相关域名直指 AI自动选择
+# 规则直接指向 AI自动选择, 无中间层
+# 用法: 与 groups-ai-auto.yaml 一起配合使用
+
+prepend:
+  - DOMAIN-SUFFIX,chatgpt.com,AI自动选择
+  - DOMAIN-SUFFIX,openai.com,AI自动选择
+  - DOMAIN-SUFFIX,oaiusercontent.com,AI自动选择
+  - DOMAIN-SUFFIX,oaistatic.com,AI自动选择
+  - DOMAIN-SUFFIX,opencode.ai,AI自动选择
+
+append: []
+
+delete: []

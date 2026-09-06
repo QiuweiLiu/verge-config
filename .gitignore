@@ -1,0 +1,13 @@
+# 绝不进仓库的敏感/本机生成文件
+*token*
+*secret*
+RhGl*.yaml
+profiles.yaml
+clash-verge*.yaml
+config.yaml
+cache.db
+*.mmdb
+*.dat
+logs/
+service-logs/
+backups/
